@@ -1,0 +1,25 @@
+
+/**
+ * Greets a person by name.
+ *
+* @author Joseph
+* @version June 15, 2022
+ */
+ import java.util.Scanner;
+public class Greeter
+{
+    /**
+     * Greets a person by name.
+     * @param args the command line arguments.
+     */
+    public static void main(String[] args)
+    {
+       
+        
+        System.out.print("Hey, what's your name? ");
+        Scanner keyboard = new Scanner(System.in);
+        String name = keyboard.nextLine();
+        System.out.println("Hello, " + name + "!");
+        System.out.println("Glad to meet you.");
+    }
+}
